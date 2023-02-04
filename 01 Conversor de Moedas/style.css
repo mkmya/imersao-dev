@@ -1,0 +1,106 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+    background-image: url("https://caelum-online-public.s3.amazonaws.com/assets-imersaodev/Background.png");
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column wrap;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+  }
+  
+  .page-logo {
+    width: 200px;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  body > img {
+    margin: 0 10px;
+  }
+  
+  img {
+    max-height: 180px;
+  }
+
+  #container-conversor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row wrap;
+    width: 600px;
+    height: 50%;
+    background-color: #072345;
+    border-radius: 15px;
+    color: #fff;
+    padding: 50px;
+    box-shadow: 1px 10px 15px rgba(0, 0, 0, 0.549);
+  }
+
+  #container-conversor label, input, select {
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    font-family: "Roboto Mono", monospace;
+    font-size: 17px;
+    margin: 10px;
+  }
+
+  #conversorDeMoeda {
+    display: flex;
+  }
+
+  .moeda{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .moeda input{
+    background-color: #072345;
+    border: 1px solid #fff;
+    color: white;
+    cursor: pointer;
+  }
+
+  .moeda input:hover {
+    background-color: #2c578c;
+    border: none;
+    transition: .4s;
+  }
+
+  #resultado {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    font-size: 18px;
+    color: #fff;
+  } 

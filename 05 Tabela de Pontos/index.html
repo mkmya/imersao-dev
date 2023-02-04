@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Classificação</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+      <h1>Classificação</h1>
+      <nav> 
+        <div>
+          <input type="text" id="nomeNovoJogador" placeholder="Digite o nome do jogador..." value="">
+          <button id="buttonAdicionarJogador" onclick="adicionarJogador()">Adicionar jogador</button>
+        </div>
+        <div>
+          <button id="limparDados" onclick="limparDados()">Limpar dados</button>
+        </div>
+      </nav>
+      <table style="width:100%">
+        <thead>
+          <tr>
+            <th>Nome</th>
+            <th>Vitórias</th>
+            <th>Empates</th>
+            <th>Derrotas</th>
+            <th>Pontos</th>
+            <th colspan="5">Ações</th>
+          </tr>
+        </thead>
+        <tbody id="tabelaJogadores">
+        </tbody>
+      </table>
+    </main>
+  <script src="script.js"></script>
+</body>
+
+</html>

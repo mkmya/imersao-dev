@@ -1,0 +1,103 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  background-image: url("https://caelum-online-public.s3.amazonaws.com/assets-imersaodev/background_mentalista.png");
+  background-color: #000000;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.game { 
+  background-color: #1b2660;
+  padding: 40px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+  height: 600px;
+  width: 400px;
+  font-size: 18px;
+  box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.487);
+}
+
+.game h1{
+  color: #fff;
+  font-size: 28px;
+}
+
+.game span, label{
+  color: #fff;
+  margin: 10px;
+  width: 100%;
+  text-align: justify;
+
+}
+
+#adivinhe{
+  width: 100%;
+  margin: 20px;
+  border-radius: 10px;
+  height: 20px;
+  padding: 5px;
+  text-align: center;
+
+}
+
+#button-submit {
+  border-radius: 15px;
+  background-color: rgb(70, 95, 171);
+  border: none;
+  width: 100px;
+  height: 40px;
+  color: #fff;
+  font-family: "Roboto Mono", monospace;
+  padding: 10px;
+  cursor: pointer;
+  align-self: flex-end;
+}
+
+#button-submit:hover{
+  background-color: #fff;
+  color:#1e3791;
+  transition: .5s;
+}
+
+body > img {
+  margin: 0 10px;
+}
+
+img {
+  max-height: 350px;
+}
